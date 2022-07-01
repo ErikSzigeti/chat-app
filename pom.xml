@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eszigeti</groupId>
-	<artifactId>chat-app</artifactId>
+	<artifactId>action-monitor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>chat-app</name>
-	<description>Chat application </description>
+	<name>action-monitor</name>
+	<description>Action monitor application </description>
 	<properties>
 		<java.version>17</java.version>
 		<jackson.version>2.13.3</jackson.version>
