@@ -19,8 +19,14 @@ management:
         include: info, health
   info:
     env:
-      enabled : true
+      enabled: true
 
 info:
   app:
     version: '@project.version@'
+
+activemq:
+  broker:
+    url: tcp://localhost:61616
+  queue:
+    name: MESSAGE_QUEUE
